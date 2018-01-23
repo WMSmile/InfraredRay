@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18182E7F201772EC00A5F630 /* SignalFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18182E7E201772EC00A5F630 /* SignalFormat.swift */; };
+		18182E812017750F00A5F630 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18182E802017750F00A5F630 /* Signal.swift */; };
+		18A2B6851FF4E8E500C885C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2B6841FF4E8E500C885C4 /* AppDelegate.swift */; };
+		18A2B6871FF4E8E500C885C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2B6861FF4E8E500C885C4 /* ViewController.swift */; };
+		18A2B68A1FF4E8E500C885C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A2B6881FF4E8E500C885C4 /* Main.storyboard */; };
+		18A2B68C1FF4E8E500C885C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A2B68B1FF4E8E500C885C4 /* Assets.xcassets */; };
+		18A2B68F1FF4E8E500C885C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A2B68D1FF4E8E500C885C4 /* LaunchScreen.storyboard */; };
+		18A2B69A1FF4E8E500C885C4 /* InfraredRayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2B6991FF4E8E500C885C4 /* InfraredRayTests.swift */; };
+		18A2B6A51FF4E8E500C885C4 /* InfraredRayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2B6A41FF4E8E500C885C4 /* InfraredRayUITests.swift */; };
+		18A2B6B31FF4E90700C885C4 /* InfraredRayManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A2B6B21FF4E90700C885C4 /* InfraredRayManger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A2B6961FF4E8E500C885C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A2B6791FF4E8E500C885C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A2B6801FF4E8E500C885C4;
+			remoteInfo = InfraredRay;
+		};
+		18A2B6A11FF4E8E500C885C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A2B6791FF4E8E500C885C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A2B6801FF4E8E500C885C4;
+			remoteInfo = InfraredRay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18182E7E201772EC00A5F630 /* SignalFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalFormat.swift; sourceTree = "<group>"; };
+		18182E802017750F00A5F630 /* Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
+		18A2B6811FF4E8E500C885C4 /* InfraredRay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfraredRay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A2B6841FF4E8E500C885C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A2B6861FF4E8E500C885C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A2B6891FF4E8E500C885C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A2B68B1FF4E8E500C885C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A2B68E1FF4E8E500C885C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A2B6901FF4E8E500C885C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A2B6951FF4E8E500C885C4 /* InfraredRayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraredRayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A2B6991FF4E8E500C885C4 /* InfraredRayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfraredRayTests.swift; sourceTree = "<group>"; };
+		18A2B69B1FF4E8E500C885C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A2B6A01FF4E8E500C885C4 /* InfraredRayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraredRayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A2B6A41FF4E8E500C885C4 /* InfraredRayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfraredRayUITests.swift; sourceTree = "<group>"; };
+		18A2B6A61FF4E8E500C885C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A2B6B21FF4E90700C885C4 /* InfraredRayManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfraredRayManger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A2B67E1FF4E8E500C885C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2B6921FF4E8E500C885C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2B69D1FF4E8E500C885C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A2B6781FF4E8E500C885C4 = {
+			isa = PBXGroup;
+			children = (
+				18A2B6831FF4E8E500C885C4 /* InfraredRay */,
+				18A2B6981FF4E8E500C885C4 /* InfraredRayTests */,
+				18A2B6A31FF4E8E500C885C4 /* InfraredRayUITests */,
+				18A2B6821FF4E8E500C885C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A2B6821FF4E8E500C885C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A2B6811FF4E8E500C885C4 /* InfraredRay.app */,
+				18A2B6951FF4E8E500C885C4 /* InfraredRayTests.xctest */,
+				18A2B6A01FF4E8E500C885C4 /* InfraredRayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A2B6831FF4E8E500C885C4 /* InfraredRay */ = {
+			isa = PBXGroup;
+			children = (
+				18182E7E201772EC00A5F630 /* SignalFormat.swift */,
+				18182E802017750F00A5F630 /* Signal.swift */,
+				18A2B6841FF4E8E500C885C4 /* AppDelegate.swift */,
+				18A2B6861FF4E8E500C885C4 /* ViewController.swift */,
+				18A2B6B21FF4E90700C885C4 /* InfraredRayManger.swift */,
+				18A2B6881FF4E8E500C885C4 /* Main.storyboard */,
+				18A2B68B1FF4E8E500C885C4 /* Assets.xcassets */,
+				18A2B68D1FF4E8E500C885C4 /* LaunchScreen.storyboard */,
+				18A2B6901FF4E8E500C885C4 /* Info.plist */,
+			);
+			path = InfraredRay;
+			sourceTree = "<group>";
+		};
+		18A2B6981FF4E8E500C885C4 /* InfraredRayTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A2B6991FF4E8E500C885C4 /* InfraredRayTests.swift */,
+				18A2B69B1FF4E8E500C885C4 /* Info.plist */,
+			);
+			path = InfraredRayTests;
+			sourceTree = "<group>";
+		};
+		18A2B6A31FF4E8E500C885C4 /* InfraredRayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A2B6A41FF4E8E500C885C4 /* InfraredRayUITests.swift */,
+				18A2B6A61FF4E8E500C885C4 /* Info.plist */,
+			);
+			path = InfraredRayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A2B6801FF4E8E500C885C4 /* InfraredRay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A2B6A91FF4E8E500C885C4 /* Build configuration list for PBXNativeTarget "InfraredRay" */;
+			buildPhases = (
+				18A2B67D1FF4E8E500C885C4 /* Sources */,
+				18A2B67E1FF4E8E500C885C4 /* Frameworks */,
+				18A2B67F1FF4E8E500C885C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfraredRay;
+			productName = InfraredRay;
+			productReference = 18A2B6811FF4E8E500C885C4 /* InfraredRay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A2B6941FF4E8E500C885C4 /* InfraredRayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A2B6AC1FF4E8E500C885C4 /* Build configuration list for PBXNativeTarget "InfraredRayTests" */;
+			buildPhases = (
+				18A2B6911FF4E8E500C885C4 /* Sources */,
+				18A2B6921FF4E8E500C885C4 /* Frameworks */,
+				18A2B6931FF4E8E500C885C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A2B6971FF4E8E500C885C4 /* PBXTargetDependency */,
+			);
+			name = InfraredRayTests;
+			productName = InfraredRayTests;
+			productReference = 18A2B6951FF4E8E500C885C4 /* InfraredRayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A2B69F1FF4E8E500C885C4 /* InfraredRayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A2B6AF1FF4E8E500C885C4 /* Build configuration list for PBXNativeTarget "InfraredRayUITests" */;
+			buildPhases = (
+				18A2B69C1FF4E8E500C885C4 /* Sources */,
+				18A2B69D1FF4E8E500C885C4 /* Frameworks */,
+				18A2B69E1FF4E8E500C885C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A2B6A21FF4E8E500C885C4 /* PBXTargetDependency */,
+			);
+			name = InfraredRayUITests;
+			productName = InfraredRayUITests;
+			productReference = 18A2B6A01FF4E8E500C885C4 /* InfraredRayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A2B6791FF4E8E500C885C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wumeng;
+				TargetAttributes = {
+					18A2B6801FF4E8E500C885C4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8T5G22ZM6N;
+						ProvisioningStyle = Automatic;
+					};
+					18A2B6941FF4E8E500C885C4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A2B6801FF4E8E500C885C4;
+					};
+					18A2B69F1FF4E8E500C885C4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A2B6801FF4E8E500C885C4;
+					};
+				};
+			};
+			buildConfigurationList = 18A2B67C1FF4E8E500C885C4 /* Build configuration list for PBXProject "InfraredRay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A2B6781FF4E8E500C885C4;
+			productRefGroup = 18A2B6821FF4E8E500C885C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A2B6801FF4E8E500C885C4 /* InfraredRay */,
+				18A2B6941FF4E8E500C885C4 /* InfraredRayTests */,
+				18A2B69F1FF4E8E500C885C4 /* InfraredRayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A2B67F1FF4E8E500C885C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A2B68F1FF4E8E500C885C4 /* LaunchScreen.storyboard in Resources */,
+				18A2B68C1FF4E8E500C885C4 /* Assets.xcassets in Resources */,
+				18A2B68A1FF4E8E500C885C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2B6931FF4E8E500C885C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2B69E1FF4E8E500C885C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A2B67D1FF4E8E500C885C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18182E7F201772EC00A5F630 /* SignalFormat.swift in Sources */,
+				18182E812017750F00A5F630 /* Signal.swift in Sources */,
+				18A2B6871FF4E8E500C885C4 /* ViewController.swift in Sources */,
+				18A2B6851FF4E8E500C885C4 /* AppDelegate.swift in Sources */,
+				18A2B6B31FF4E90700C885C4 /* InfraredRayManger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2B6911FF4E8E500C885C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A2B69A1FF4E8E500C885C4 /* InfraredRayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A2B69C1FF4E8E500C885C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A2B6A51FF4E8E500C885C4 /* InfraredRayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A2B6971FF4E8E500C885C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A2B6801FF4E8E500C885C4 /* InfraredRay */;
+			targetProxy = 18A2B6961FF4E8E500C885C4 /* PBXContainerItemProxy */;
+		};
+		18A2B6A21FF4E8E500C885C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A2B6801FF4E8E500C885C4 /* InfraredRay */;
+			targetProxy = 18A2B6A11FF4E8E500C885C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A2B6881FF4E8E500C885C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A2B6891FF4E8E500C885C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A2B68D1FF4E8E500C885C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A2B68E1FF4E8E500C885C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A2B6A71FF4E8E500C885C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A2B6A81FF4E8E500C885C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A2B6AA1FF4E8E500C885C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8T5G22ZM6N;
+				INFOPLIST_FILE = InfraredRay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.bangjia.sky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18A2B6AB1FF4E8E500C885C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8T5G22ZM6N;
+				INFOPLIST_FILE = InfraredRay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.bangjia.sky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18A2B6AD1FF4E8E500C885C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InfraredRayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.wumeng.InfraredRayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfraredRay.app/InfraredRay";
+			};
+			name = Debug;
+		};
+		18A2B6AE1FF4E8E500C885C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InfraredRayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.wumeng.InfraredRayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfraredRay.app/InfraredRay";
+			};
+			name = Release;
+		};
+		18A2B6B01FF4E8E500C885C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = InfraredRayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.wumeng.InfraredRayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InfraredRay;
+			};
+			name = Debug;
+		};
+		18A2B6B11FF4E8E500C885C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = InfraredRayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.wumeng.InfraredRayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InfraredRay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A2B67C1FF4E8E500C885C4 /* Build configuration list for PBXProject "InfraredRay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A2B6A71FF4E8E500C885C4 /* Debug */,
+				18A2B6A81FF4E8E500C885C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A2B6A91FF4E8E500C885C4 /* Build configuration list for PBXNativeTarget "InfraredRay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A2B6AA1FF4E8E500C885C4 /* Debug */,
+				18A2B6AB1FF4E8E500C885C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A2B6AC1FF4E8E500C885C4 /* Build configuration list for PBXNativeTarget "InfraredRayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A2B6AD1FF4E8E500C885C4 /* Debug */,
+				18A2B6AE1FF4E8E500C885C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A2B6AF1FF4E8E500C885C4 /* Build configuration list for PBXNativeTarget "InfraredRayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A2B6B01FF4E8E500C885C4 /* Debug */,
+				18A2B6B11FF4E8E500C885C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A2B6791FF4E8E500C885C4 /* Project object */;
+}
