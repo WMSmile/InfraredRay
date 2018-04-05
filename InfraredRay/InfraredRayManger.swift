@@ -15,7 +15,9 @@ class InfraredRayManger: NSObject ,AVAudioPlayerDelegate{
     let KAmplitude = 32767
     let kFrequency = 19000
     let KSampleRate = 44100 //采样率
+    //可变参数
     var rate = 0.5;
+    var k = 0.0;
     
     
     static let getinstance = InfraredRayManger();
@@ -29,17 +31,17 @@ class InfraredRayManger: NSObject ,AVAudioPlayerDelegate{
     func createInfraredRay(plus:[Int]) -> Data? {
 
         var pcmData:Data = Data();
-
-        for item in plus.enumerated() {
-            let i = item.offset;
+        let num = plus.count-1;
+        for i in 0...num {
+//            let i = item.offset;
             print("i==\(i)");
             if (i % 2 == 0)
             {
                 let allNum:Int = Int(Double(plus[i]) * kNum);
                 for j in 0...allNum {
-                    let dVal:Double = Double((rate * sin(2 * Double.pi * (Double(kFrequency)) * (Double(j)/44100))));
-
-//                    let dVal:Double = rate + Double((rate * sin(2 * Double.pi * (Double(kFrequency)) * (Double(j)/44100))));
+                    var dVal:Double = k + Double((rate * sin(2 * Double.pi * (Double(kFrequency)) * (Double(j)/44100))));
+//                    let dVal:Double = 0.5 + Double((0.5 * sin(2 * Double.pi * (Double(kFrequency)) * (Double(j)/44100))));
+                    dVal = dVal > 1.00 ? 1.00 : dVal;
                     var val:CShort = CShort(dVal * Double(KAmplitude));
                     print("偶数 --val == \(val)");
                     let data:Data = Data.init(bytes: &val, count: MemoryLayout<CShort>.size);
@@ -92,6 +94,10 @@ class InfraredRayManger: NSObject ,AVAudioPlayerDelegate{
         //播放音频数据
         let data = self.createAudioData(plus: signalSource);
         print("data == \(String(describing: data))");
+        let file_path:String = NSTemporaryDirectory().appending("kai.wav")
+        try! data?.write(to: URL.init(fileURLWithPath: file_path));
+        print("file_path == \(file_path)");
+        
         let session = AVAudioSession()
         do {
             try session.setCategory(AVAudioSessionCategoryPlayback, with: [])
